@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "url": "https://gist.githubusercontent.com/rasa/76456d5d4e71676f21883f3bcc7a9e01/raw/noop.cmd",
+    "depends": [
+      "cacert",
+      "vcredist",
+      "vcredist2008",
+      "vcredist2010",
+      "vcredist2012",
+      "vcredist2013",
+      "vcredist2015"
+    ]
+}
