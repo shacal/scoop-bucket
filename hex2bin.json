@@ -1,0 +1,9 @@
+{
+  "description": "Bin2h - Win32/DOS binary to C header file converter",
+  "homepage": "http://hex2bin.sourceforge.net/",
+  "version": "2.5",
+  "url": "http://downloads.sourceforge.net/project/hex2bin/hex2bin/Hex2bin-2.5.tar.bz2",
+  "extract_dir": "bin/release",
+  "bin": "hex2bin.exe",
+  "license": "BSD"
+}
