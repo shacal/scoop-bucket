@@ -1,0 +1,9 @@
+{
+    "description": "Bin2h - Win32/DOS binary to C header file converter",
+    "version": "1.0.0",
+    "url": "http://www.deadnode.org/dl/bin2h.exe",    
+    "extract_dir": "deadnode",
+    "bin": "cowsay.ps1"    
+    "license": "Freeware",
+    "homepage": "http://www.deadnode.org/sw/bin2h/"
+}
