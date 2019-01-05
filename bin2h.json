@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "url": "http://www.deadnode.org/dl/bin2h.exe",    
     "extract_dir": "deadnode",
-    "bin": "cowsay.ps1"    
+    "bin": "bin2h.exe",
     "license": "Freeware",
     "homepage": "http://www.deadnode.org/sw/bin2h/"
 }
