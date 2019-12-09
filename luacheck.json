@@ -1,8 +1,0 @@
-{
-  "description": "Luacheck is a static analyzer and a linter for Lua",
-  "homepage": "https://github.com/mpeterv/luacheck",
-  "version": "0.23.0",
-  "url": "https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe",
-  "bin": "luacheck.exe",
-  "license": "MIT"
-}
