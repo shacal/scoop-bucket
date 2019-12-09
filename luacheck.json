@@ -3,6 +3,7 @@
   "homepage": "https://github.com/mpeterv/luacheck",
   "version": "0.23.0",
   "url": "https://github.com/mpeterv/luacheck/releases/download/0.23.0/luacheck.exe",
+  "hash": "f1395a3fac181094a3df500cf81698d1256638fab60f6e02994e9b0b1905fcdc",
   "bin": "luacheck.exe",
   "license": "MIT"
 }
