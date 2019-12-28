@@ -1,0 +1,48 @@
+{
+    "description": "Vice - Versatile Commodore Emulator",
+    "version": "3.4",
+    "homepage": "http://vice-emu.sourceforge.net/",
+    "url": "https://downloads.sourceforge.net/project/vice-emu/releases/binaries/windows/GTK3VICE-3.4-win64.7z",
+    "extract_dir": "GTK3VICE-3.4-win64-r37296",
+    "bin": [
+        "vsid.exe",
+        "x64dtv.exe",
+        "x64sc.exe",
+        "x128.exe",
+        "xcbm2.exe",
+        "xcbm5x0.exe",
+        "xpet.exe",
+        "xplus4.exe",
+        "xscpu64.exe",
+        "xvic.exe",
+        "c1541.exe",
+        "cartconv.exe",
+        "petcat.exe"
+    ],
+    "shortcuts": [
+        [
+            "vsid.exe",
+            "Vice - SID Player"
+        ],
+        [
+            "x64dtv.exe",
+            "Vice - C64 (DTV)"
+        ],
+        [
+            "x64sc.exe",
+            "Vice - C64"
+        ],
+        [
+            "x128.exe",
+            "Vice - C128"
+        ],
+        [
+            "xvic.exe",
+            "Vice - VIC20"
+        ],
+        [
+            "xpet.exe",
+            "Vice - PET"
+        ]
+    ]
+}
