@@ -3,6 +3,7 @@
     "version": "3.4",
     "homepage": "http://vice-emu.sourceforge.net/",
     "url": "https://downloads.sourceforge.net/project/vice-emu/releases/binaries/windows/GTK3VICE-3.4-win64.7z",
+    "hash": "a3892dd7c29760f2f742cd3a6ff87155ae291124a06fc8c24ddc20a5fa542c98",
     "extract_dir": "GTK3VICE-3.4-win64-r37296",
     "bin": [
         "vsid.exe",
