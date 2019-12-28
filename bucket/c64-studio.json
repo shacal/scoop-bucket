@@ -1,13 +1,19 @@
 {
     "description": "C64 Studio - .NET based IDE for C64 development",
-    "homepage": "http://hex2bin.sourceforge.net",
     "version": "6.3",
+    "homepage": "http://www.georg-rottensteiner.de",
     "url": "http://www.georg-rottensteiner.de/files/C64StudioRelease.zip",
     "hash": "02e8702fd73d1b6ed886c8e9db79c5581e4589ad38df07ed77c0d302ddf3e7b7",
     "extract_dir": "C64StudioRelease",
     "bin": "C64Studio.exe",
     "persist": [
         "settings.dat"
+    ],
+    "shortcuts": [
+        [
+            "C64Studio.exe",
+            "C64 Studio"
+        ]
     ],
     "pre_install": [
         "# Create empty settings.dat",
