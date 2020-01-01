@@ -3,7 +3,7 @@
     "version": "6.3",
     "homepage": "http://www.georg-rottensteiner.de",
     "url": "http://www.georg-rottensteiner.de/files/C64StudioRelease.zip",
-    "hash": "02e8702fd73d1b6ed886c8e9db79c5581e4589ad38df07ed77c0d302ddf3e7b7",
+    "hash": "3d12f4b0c174acacbcc8fd2234807a30a5425c96f1d2ddf517a92d318f74e7cc",
     "extract_dir": "C64StudioRelease",
     "bin": "C64Studio.exe",
     "persist": [
