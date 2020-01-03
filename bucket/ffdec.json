@@ -1,7 +1,7 @@
 {
-    "description": "C64 Studio - .NET based IDE for C64 development",
+    "description": "Free Flash Decompiler",
     "version": "11.2.0",
-    "homepage": "http://www.georg-rottensteiner.de",
+    "homepage": "https://github.com/jindrapetrik",
     "url": "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version11.2.0/ffdec_11.2.0.zip",
     "hash": "e6e1dee34bb8366b12fc7e080ff44a1d2c3431d77e48a2bca6cad98a10d7c2c9",
     "bin": "ffdec.exe",
