@@ -1,6 +1,6 @@
 {
-    "version": "200120",
-    "hash": "e1b9f425e7553dc726bc739e59baa68e771e0f32dd69940d8d92795c40cec2c4",
+    "version": "200504",
+    "hash": "1b8a33f2b1c11bdda81d2ce9d925369da0a6d0553770ac24b6b43802b3d5155f",
     "description": "A database of extended cleaning routines for CCleaner.",
     "homepage": "https://github.com/MoscaDotTo/Winapp2",
     "url": "https://raw.githubusercontent.com/MoscaDotTo/Winapp2/master/Winapp2.ini",
