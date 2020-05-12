@@ -1,15 +1,17 @@
 {
-    "version": "200504",
+    "version": "200511",
     "hash": "1b8a33f2b1c11bdda81d2ce9d925369da0a6d0553770ac24b6b43802b3d5155f",
     "description": "A database of extended cleaning routines for CCleaner.",
     "homepage": "https://github.com/MoscaDotTo/Winapp2",
-    "url": "https://raw.githubusercontent.com/MoscaDotTo/Winapp2/master/Winapp2.ini",
+    "url": "https://raw.githubusercontent.com/MoscaDotTo/Winapp2/master/Winapp3/Winapp3.ini",
     "depends": "extras/ccleaner",
     "license": "Attribution-ShareAlike 4.0 International",
     "installer": {
-        "script": "Copy-Item \"$dir\\winapp2.ini\" \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force"
+        "script": "Copy-Item \"$dir\\winapp3.ini\" \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force"
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp2.ini\""
+        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force -ErrorAction Continue",
+        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp2.ini\" -Force -ErrorAction Continue",
+        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp3.ini\" -Force -ErrorAction Continue"
     }
 }
