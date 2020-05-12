@@ -7,11 +7,10 @@
     "depends": "extras/ccleaner",
     "license": "Attribution-ShareAlike 4.0 International",
     "installer": {
-        "script": "Copy-Item \"$dir\\winapp3.ini\" \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force"
+        "script": "Copy-Item \"$dir\\winapp3.ini\" \"$(appdir ccleaner $global)\\current\\winapp2.ini\" -Force"
     },
     "uninstaller": {
         "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force -ErrorAction Continue",
-        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp2.ini\" -Force -ErrorAction Continue",
-        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp3.ini\" -Force -ErrorAction Continue"
+        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp2.ini\" -Force -ErrorAction Continue"
     }
 }
