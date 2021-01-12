@@ -6,19 +6,19 @@
     "hash": "54F0500A77515BDF75EDE72188954A11738E62B91AE86CF5A02C824FD8917DAC",
     "extract_dir": "GTK3VICE-3.5-win64",
     "bin": [
-        "vsid.exe",
-        "x64dtv.exe",
-        "x64sc.exe",
-        "x128.exe",
-        "xcbm2.exe",
-        "xcbm5x0.exe",
-        "xpet.exe",
-        "xplus4.exe",
-        "xscpu64.exe",
-        "xvic.exe",
-        "c1541.exe",
-        "cartconv.exe",
-        "petcat.exe"
+        "bin/vsid.exe",
+        "bin/x64dtv.exe",
+        "bin/x64sc.exe",
+        "bin/x128.exe",
+        "bin/xcbm2.exe",
+        "bin/xcbm5x0.exe",
+        "bin/xpet.exe",
+        "bin/xplus4.exe",
+        "bin/xscpu64.exe",
+        "bin/xvic.exe",
+        "bin/c1541.exe",
+        "bin/cartconv.exe",
+        "bin/petcat.exe"
     ],
     "checkver": {
         "url": "https://vice-emu.sourceforge.io/index.html#download",
@@ -29,27 +29,27 @@
     },    
     "shortcuts": [
         [
-            "vsid.exe",
+            "bin/vsid.exe",
             "Vice - SID Player"
         ],
         [
-            "x64dtv.exe",
+            "bin/x64dtv.exe",
             "Vice - C64 (DTV)"
         ],
         [
-            "x64sc.exe",
+            "bin/x64sc.exe",
             "Vice - C64"
         ],
         [
-            "x128.exe",
+            "bin/x128.exe",
             "Vice - C128"
         ],
         [
-            "xvic.exe",
+            "bin/xvic.exe",
             "Vice - VIC20"
         ],
         [
-            "xpet.exe",
+            "bin/xpet.exe",
             "Vice - PET"
         ]
     ]
