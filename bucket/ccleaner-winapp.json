@@ -10,6 +10,6 @@
         "script": "Copy-Item \"$dir\\winapp2.ini\" \"$(appdir ccleaner $global)\\current\\winapp2.ini\" -Force"
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force -ErrorAction Continue",
+        "script": "Remove-Item \"$(appdir ccleaner $global)\\current\\winapp.ini\" -Force -ErrorAction SilentlyContinue",
     }
 }
