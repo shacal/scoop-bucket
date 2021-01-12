@@ -1,10 +1,10 @@
 {
     "description": "Vice - Versatile Commodore Emulator",
-    "version": "3.4",
+    "version": "3.5",
     "homepage": "http://vice-emu.sourceforge.net/",
-    "url": "https://downloads.sourceforge.net/project/vice-emu/releases/binaries/windows/GTK3VICE-3.4-win64.7z",
-    "hash": "a3892dd7c29760f2f742cd3a6ff87155ae291124a06fc8c24ddc20a5fa542c98",
-    "extract_dir": "GTK3VICE-3.4-win64-r37296",
+    "url": "https://downloads.sourceforge.net/project/vice-emu/releases/binaries/windows/GTK3VICE-3.5-win64.7z",
+    "hash": "54F0500A77515BDF75EDE72188954A11738E62B91AE86CF5A02C824FD8917DAC",
+    "extract_dir": "GTK3VICE-3.5-win64",
     "bin": [
         "vsid.exe",
         "x64dtv.exe",
@@ -20,6 +20,13 @@
         "cartconv.exe",
         "petcat.exe"
     ],
+    "checkver": {
+        "url": "https://vice-emu.sourceforge.io/index.html#download",
+        "regex": "Download VICE ([\\d.]+)"
+    },
+    "autoupdate": {
+		"url": "https://downloads.sourceforge.net/project/vice-emu/releases/binaries/windows/GTK3VICE-$cleanVersion-win64.7z"
+    },    
     "shortcuts": [
         [
             "vsid.exe",
